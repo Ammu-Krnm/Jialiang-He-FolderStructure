@@ -11,7 +11,7 @@ I extended IKEA Place’s existing AR furniture placement into an immersive XR v
 
 ## Early Sketches & Prototypes
 
-![Sketch 1](Documentation/Concept/2e72bcd53b3c09bc8594355ce7e0a00c.jpg)
+![Sketch 1](2e72bcd53b3c09bc8594355ce7e0a00c.jpg)
 ![Sketch 2](Documentation/Concept/1226b629bee8d51f6a3a016ab89adddb.jpg)
 ![Sketch 3](Documentation/Concept/3bac8877df3ee727fbfa3ba124d2b00b.jpg)
 ![Sketch 4](Documentation/Concept/55979dacacbdb3a1c2f01143f6cbef6f.jpg)
