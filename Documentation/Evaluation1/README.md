@@ -129,3 +129,15 @@ Future iterations should focus on enhancing user freedom and customization, whil
 
 In this assignment, apart from using AI tools to assist with syntax corrections in C# files, all design concepts, interaction approaches, prototype implementation, and testing procedures are entirely original and independently completed by me.  
 The use of AI was strictly limited to grammar checking and code refinement, without contributing to any creative decisions or core content generation.
+
+---
+## References
+
+The Unity project also uses assets sourced externally:
+
+- TV Stand model: [TurboSquid - TV Stand C4D Free](https://www.turbosquid.com/3d-models/tv-stand-c4d-free/1103887)  
+- House model: [TurboSquid - 3D House](https://www.turbosquid.com/3d-models/3d-house-1628048)  
+
+These assets were imported into Unity and are referenced in the project.  
+
+---
