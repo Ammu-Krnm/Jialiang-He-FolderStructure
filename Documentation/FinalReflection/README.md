@@ -209,3 +209,4 @@ Users responded positively to haptic and visual feedback when collisions occurre
 ---
 
 **Prototype Screenshot (omitted)**  
+![Prototype Screenshot](image.png)
