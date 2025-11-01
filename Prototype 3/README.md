@@ -1,211 +1,135 @@
-# Assessment 1.4: Final Report and Reflection
+# [Project name: HomeCraft XR]
 
-## Project: HomeCraft XR  
-**Student Name:** Jialiang He
+## Testing Plan for Interactive Prototype 3
 
----
+This project is a traditional interior design and room layout planning tool.  
 
-## 1. Objective and Validation Metrics
-
-The goal of this evaluation was to validate the intuitiveness, comfort, and realism of gesture-based furniture manipulation (grabbing, rotating, throwing) in an immersive XR interior design environment.  
-The prototype also aimed to test whether real-time collision feedback effectively improves spatial accuracy and user confidence during object placement.
-
-### Validation Metrics
-
-| Metric | Description | Target for Success |
-|:--|:--|:--|
-| **Task Completion Rate** | % of users completing all tasks without external help | ≥ 80% |
-| **Mean Usability Rating** | 1–5 Likert scale average score | ≥ 4.0 |
-| **Collision Error Count** | Number of overlapping placements per user | ≤ 3 |
-| **Qualitative Comfort** | Interview feedback on gesture control naturalness | Majority positive responses |
-
-**Tested assumptions:**
-- Embodied gestures (grab/rotate/throw) are faster and more intuitive than menu-driven manipulation.  
-- Visual + haptic collision feedback reduces placement errors and increases user confidence.
+Using immersive 3D visualization, users can place, rotate, and throw furniture in real-world scale environments.  
+The prototype integrates gesture-based interaction and controller interaction to enhance spatial awareness and design efficiency.
 
 ---
 
-## 2. Results
+## Testing Objective
 
-**Participants:** 5 (3 males, 2 females), aged 21–25, with mixed XR familiarity.  
-**Tasks:** Upright fallen chair, move bean bag, relocate vase, and throw object into bin.  
-**Duration:** 10–15 minutes per participant.
-
-### Quantitative Findings
-
-| Metric | Mean | SD | Observation |
-|:--|:--|:--|:--|
-| **Task Completion Rate** | 100% | – | All participants completed every task |
-| **Usability Score** | 4.4 / 5 | 0.5 | Generally positive |
-| **Realism Score** | 4.2 / 5 | 0.4 | Users felt immersed |
-| **Collision Errors** | 1.6 | 0.9 | Low frequency of overlap |
-| **Average Task Time** | 4.2 min | 0.7 | Within expected range |
-
-### Qualitative Feedback (selected quotes)
-
-> “Grabbing felt natural, but throwing accuracy could be improved.” — **P2**  
-> “The haptic vibration helped me know when objects collided — very helpful.” — **P4**  
-> “Rotating larger furniture was tiring; maybe a slower gesture sensitivity would help.” — **P1**  
-> “The bean bag placement was fun; it felt realistic to move around the room.” — **P5**
-
-### Observed Behaviours
-
-- Most users adapted quickly after a short familiarization period.  
-- Two participants initially struggled to control rotation, often over-rotating before adjusting their grip.  
-- Throwing gestures were occasionally misinterpreted when hand tracking was briefly lost.  
-- Participants showed enjoyment when using gestures instead of menus, indicating high engagement.
+From the concept, the main assumption that requires validation is whether gesture-based furniture manipulation (grabbing, rotating, throwing) feels natural and intuitive for users.  
+Additionally, it is important to test if real-time collision feedback effectively prevents incorrect object placements and increases user confidence.  
+This test aims to discover how easily users can complete layout tasks, and whether visual and haptic feedback improve interaction accuracy.
 
 ---
 
-## 3. Analysis and Insights
+## Testing Methodologies
 
-### 3.1 Patterns and Themes
-
-**Natural Gesture Control but Limited Precision**  
-Users found grabbing and moving gestures intuitive (“It feels like picking up real furniture”), yet precision tasks—especially rotation—were more error-prone.  
-This indicates that gesture-based manipulation supports immersion but requires finer control thresholds.
-
-**Collision Feedback Increases Confidence**  
-Participants mentioned that visual flashes and vibration cues helped them “feel” object boundaries, leading to fewer incorrect placements.  
-This validates the design goal of providing tangible spatial feedback.
-
-**Immersion through Embodied Interaction**  
-Compared with IP2, users’ focus shifted from novelty to realism and comfort.  
-The freedom to walk, grab, and throw encouraged embodied engagement.  
-The most immersive moment cited was “throwing the vase into the bin,” which merged physical and virtual responses naturally.
-
-### 3.2 Underlying Meanings
-
-- Users expect physical logic in XR environments — feedback and resistance signals enhance trust in the simulation.  
-- Gesture calibration (speed, sensitivity) directly affects perceived usability.  
-- Functional completeness (e.g., resizing, storing, duplicating furniture) becomes the next barrier after core interactions succeed.
+This testing plan uses a combination of **Think-Aloud Protocol**, **Observation**, and **Post-task Interviews** to evaluate a Unity-based XR prototype.  
+Participants will verbalize their thoughts while performing set tasks, while the facilitator observes behavior, records performance metrics, and collects qualitative feedback.
 
 ---
 
-## 4. Evaluation of Aims
+## Prototype Description / Requirements
 
-| Evaluation Focus | Result | Evidence |
-|:--|:--|:--|
-| Gesture-based manipulation feels natural | **Validated** | 4.4/5 usability; 5/5 found intuitive |
-| Collision feedback improves confidence | **Validated** | All users cited positive effect |
-| Throwing interaction intuitive | **Partially Validated** | 2 users reported tracking inconsistency |
-| Visual-haptic feedback increases accuracy | **Validated** | Low collision error count |
-
-**Summary:**  
-The testing successfully validated the key interaction assumptions. Gesture control proved effective for most users, while collision feedback provided both practical and psychological support.  
-However, throw gestures and rotation precision require refinement before deployment.
+The prototype was designed to test core spatial interaction concepts.  
+It allows users to grab and move furniture, throwing objects using hand gestures.  
+The scene also supports collision detection and visual feedback when objects overlap.
 
 ---
 
-## 5. Reflection
+## Data Collection Method
 
-### 5.1 Prototype Session Review
+During the testing process, I will:
 
-The IP3 session demonstrated substantial progress compared to earlier prototypes.  
-The interactions (grabbing, moving, throwing) functioned smoothly, with no severe usability issues.  
-What worked particularly well was embodied interaction — participants instinctively reached out and manipulated objects without needing instructions.
-
-However, gesture recognition occasionally misfired, especially for the throwing motion, reducing realism.  
-This issue stemmed from limited tracking coverage in the Meta Quest headset rather than design intent.
-
-### 5.2 Methodological Reflection
-
-Using a **mixed-method approach** (Think-Aloud + observation + interview + Likert-scale survey) proved highly effective.  
-- The Think-Aloud method revealed real-time confusion points (e.g., over-rotation).  
-- Quantitative ratings provided measurable evidence, addressing the lack of metrics in prior reports.  
-- Recording both task performance and subjective experience allowed triangulation of insights — a key improvement over IP1/IP2, which relied mostly on anecdotal comments.  
-
-Future sessions could include **screen recordings** and **eye-tracking data** to enhance precision and reduce observer bias.
-
-### 5.3 Concept Evaluation
-
-The original HomeCraft XR concept — enabling intuitive, gesture-driven interior design — has been validated.  
-Users confirmed the system’s potential for natural object manipulation and spatial planning.  
-The perceived realism and satisfaction indicate the core interaction design is sound.
-
-However, users’ feedback highlights the need for functional depth (scaling, saving layouts, importing assets).  
-The concept should evolve toward a **hybrid MR platform** integrating both hand gestures and menu-based fine adjustments.
-
-### 5.4 Improvements and Extensions
-
-| Improvement Area | Proposed Enhancement | Possible XR Extension |
-|:--|:--|:--|
-| Gesture Sensitivity | Introduce adjustable thresholds or slow mode | Context-aware gesture scaling |
-| Throwing Interaction | Add trajectory preview or auto-correct alignment | Combine controller + hand input for precision |
-| Functional Expansion | Add “backpack” for storing items, scaling tools | Explore MR workspace allowing physical-digital sync |
-| Visual Consistency | Refine lighting and material textures | Use photogrammetry or real-environment lighting adaptation |
-
-These refinements would shift HomeCraft XR from a functional prototype to a professional-grade spatial design toolkit, improving both control precision and user experience.
+- Observe participants’ actions and note difficulties or confusion points.  
+- Record task completion time, number of errors, and number of attempts.  
+- Use a post-task questionnaire with Likert-scale ratings (1–5) for usability, comfort, and realism.  
+- Conduct short interviews to gather qualitative feedback about intuitiveness and immersion.  
+- Save system logs (CSV export) that record object collisions, material changes, and environment toggles.
 
 ---
 
-## 6. Conclusion
+## Testing Setup
 
-The third interactive prototype successfully demonstrated that natural hand gestures and real-time feedback can provide intuitive, immersive, and efficient interior design experiences in XR.  
-The evaluation confirmed that gesture-based interactions are usable and enjoyable, though they require calibration for precision tasks.
+Testing will be conducted in a classroom using a **Meta Quest headset**.  
 
-From a methodological standpoint, this evaluation represented a significant improvement in data quality, analysis depth, and reflection rigor compared to previous iterations.  
-The testing validated the concept’s core assumptions and provided concrete, data-driven directions for future development.
+Each participant will be given **10–15 minutes** of hands-on time to complete the test tasks.  
 
-**Learning Reflection:**  
-Through structured testing and data synthesis, I learned the importance of combining numerical and behavioral insights.  
-Raw numbers reveal performance trends, but only paired with user quotes can we explain *why* those numbers occur.
+**Required equipment:**
+- Laptop with Unity prototype  
+- Notebook for observation  
+- Printed questionnaire  
 
-Future iterations should emphasize **gesture calibration** and **visual trajectory previews** to align system behavior with user expectations.  
-This approach enhances both immersion and perceived control, moving HomeCraft XR closer to a professional-level interior design tool.
-
----
-
-## Appendix
-
-### Appendix A — Participant Overview
-
-| Participant ID | Gender | XR Experience Level | Familiarity with Interior Design | Testing Duration | Notes |
-|:--|:--|:--|:--|:--|:--|
-| P1 | Female | Beginner | Low | 10 min | Needed initial guidance |
-| P2 | Male | Intermediate | Medium | 12 min | Smooth gesture control |
-| P3 | Male | Advanced | High | 15 min | Offered insightful feedback |
-| P4 | Female | Beginner | Low | 11 min | Confused by throw interaction |
-| P5 | Male | Intermediate | Medium | 13 min | Enjoyed environmental realism |
-
-**General Patterns:**  
-Most challenges arose from fine manipulation and throwing mechanics.  
-Users responded positively to haptic and visual feedback when collisions occurred.
+**Participants:** 5 classmates (diverse familiarity with XR preferred).  
+The facilitator will reset the scene between sessions to ensure consistent conditions.
 
 ---
 
-### Appendix B — Observation Notes Summary
+## Testing Process (Including Schedule/Time)
 
-| Task | Observed Behaviours | Errors or Confusions | Notes on Feedback |
-|:--|:--|:--|:--|
-| Task 1: Upright the Fallen Chair | 4 users quickly understood grab & rotate gesture | 1 user struggled with precision alignment | Gesture felt “natural” overall |
-| Task 2: Move the Bean Bag | All users completed successfully | Some difficulty grabbing soft shapes | Suggested clearer object boundaries |
-| Task 3: Relocate Vase | 4 users used teleport; 1 walked physically | Minor misplacement occurred | Positive feedback on spatial awareness |
-| Task 4: Throw Vase into Bin | 3 users succeeded easily | 2 users found motion too sensitive | Requested “throw arc” indicator |
-
-**General Patterns:**  
-Most challenges arose from fine manipulation and throwing mechanics.  
-Users responded positively to haptic and visual feedback when collisions occurred.
+### 1. Introduction & Consent (30 seconds)
+- Explain the purpose of the test and confirm voluntary participation.  
+- Briefly introduce the system (e.g., “You’ll use gestures to grab, move, and throw furniture”).
 
 ---
 
-### Appendix C — Post-Task Questionnaire (Usability Survey)
-*(Table omitted for brevity — Likert 1–5 usability questions.)*
+### 2. Demonstration & Familiarization (1 minute)
+Allow participants to freely explore the environment for 1 minute to get comfortable.
 
 ---
 
-### Appendix D — Quantitative Results Summary
-
-| Question | Mean Score (1–5) | Interpretation |
-|:--|:--|:--|
-| Q1: Gesture intuitiveness | 4.6 | Strongly positive — users found gestures easy to learn |
-| Q2: Motion accuracy | 4.4 | Prototype tracked hand motion effectively |
-| Q3: Collision feedback | 4.8 | Feedback highly useful for object placement |
-| Q4: Immersion | 4.2 | Environment well-received, minor visual bugs noted |
-| Q5: Task confidence | 4.0 | Users felt comfortable during layout tasks |
-| Q6: Throwing realism | 3.4 | Gesture sensitivity issues slightly reduced satisfaction |
-| Q7: Overall satisfaction | 4.6 | Strong approval of concept and usability |
+### 3. Task 0 – Warm Up
+**Task:** Grab a cube.
 
 ---
 
-**Prototype Screenshot (omitted)**  
+### 4. Task 1 – Upright the Fallen Chair (1.5 minutes)
+**Instruction (Facilitator):**  
+“You’ll see a chair that has fallen over on the floor. Please pick it up and place it upright.”
+
+**Observation focus:**
+- How easily the user can locate and grab the chair.  
+- Whether rotation feels natural when reorienting the object.  
+- How precisely the user places it upright without excessive adjustment.
+
+---
+
+### 5. Task 2 – Move the Bean Bag into the Room (1 minute)
+**Instruction (Facilitator):**  
+“Next to the chair, there’s a bean bag. Please move the bean bag into the bedroom and place it wherever you think looks good.”
+
+**Observation focus:**
+- The user’s understanding of object movement and navigation.  
+- Whether they can accurately position large, soft-shaped furniture.  
+- How comfortable the grab and release interactions feel.
+
+---
+
+### 6. Task 3 – Relocate the Colorful Vase (30 seconds)
+**Instruction (Facilitator):**  
+“Please walk into the bathroom. On the sink, there’s a colorful round vase. Pick it up and move it to the living room, then place it next to the light blue vase near the TV.”
+
+**Observation focus:**
+- User’s spatial awareness and object transport over distance.  
+- The naturalness of walking or teleporting while holding an object.  
+- Accuracy when placing the vase near another item.
+
+---
+
+### 7. Task 4 – Dispose of One Vase (1 minute)
+**Instruction (Facilitator):**  
+“Now, take one of the two vases and throw it into the trash bin next to the TV.”
+
+**Observation focus:**
+- How users interpret the throwing motion in XR (gesture tracking).  
+- Whether collision detection and feedback feel realistic.  
+- The user’s confidence and satisfaction with the throw interaction.
+
+---
+
+### 8. Post-task Interview & Questionnaire (2 minutes)
+**Ask:**
+- “Which task felt easiest or most natural to you?”  
+- “Was there any task that felt awkward or difficult to control?”
+
+Participants then complete a short usability questionnaire (1–5 scale).
+
+---
+
+### 9. Debrief (30 seconds)
+Thank participants and explain how their feedback will be used to improve the prototype.
