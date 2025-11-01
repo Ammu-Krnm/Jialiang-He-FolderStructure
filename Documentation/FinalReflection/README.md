@@ -190,8 +190,17 @@ Users responded positively to haptic and visual feedback when collisions occurre
 ---
 
 ### Appendix C — Post-Task Questionnaire (Usability Survey)
-*(Table omitted for brevity — Likert 1–5 usability questions.)*
+![Prototype Screenshot](87c97a219c12b1676874bc54609e04bc.png)
+![Prototype Screenshot](784adddf7ab6763ae744d4b74254906a.png)
+![Prototype Screenshot](03d2f3c205ab8c495883d02640ca106e.png)
 
+![Prototype Screenshot](cb541bc682eb61eb35b44a34aaeea03c.png)
+![Prototype Screenshot](69c7316d32659bc011d8085a241f5737.png)
+![Prototype Screenshot](086d2748861560593030bf2d84be67e6.png)
+![Prototype Screenshot](3205c19ca99be58362d79d25548c49af.png)
+![Prototype Screenshot](a15eb9cdcf407ab360e80b1ac50e7795.png)
+![Prototype Screenshot](18f7bacc8add0489ed9b1bf175790d64.png)
+![Prototype Screenshot](b8fdb50c579e8a4e4e153467c9fe6095.png)
 ---
 
 ### Appendix D — Quantitative Results Summary
